@@ -1,5 +1,5 @@
 {
-  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.15.0/schema.json",
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.14.0/schema.json",
   "name": "c3636e7d712da35c46aa",
   "position": {
     "x": 734.28571428571433,
@@ -109,10 +109,10 @@
               "Measure": {
                 "Expression": {
                   "SourceRef": {
-                    "Entity": "Sales"
+                    "Entity": "Targets"
                   }
                 },
-                "Property": "Sales per Capita"
+                "Property": "Variance Margin"
               }
             },
             "direction": "Descending"
